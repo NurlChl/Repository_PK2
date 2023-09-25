@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'poppins';
+}
+
+.tabelProduk {
+    border-collapse: collapse;
+    margin: 0 auto;
+
+    /* box-shadow: 4px 4px 13px 3px rgba(0,0,0,0.1); */
+    background-color: white;
+    width: 90%;
+    
+}
+
+.tabelProduk, th, td {
+    /* border: 2px solid black; */
+    border-bottom-width: 1px ;
+    border-bottom-style: ridge;
+    
+    
+
+}
+
+th, td {
+    padding: .5rem;
+    
+}
+
+th {
+    background-color: rgb(247, 247, 247);
+    font-weight: 600;
+    font-size: .9rem;
+    padding: 1.5rem .5rem;
+    color: rgb(3, 61, 72);
+    border-right-style: ridge;
+    border-right-width: 1px;
+    
+}
+
+td {
+    font-size: .9rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+td img {
+    object-fit: cover;
+    width: 7rem;
+    height: 7rem;
+}
+
+td div button {
+    border-radius: .5rem;
+    margin: .2rem;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+td div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 .5rem;
+}
+
+.btn-edit {
+    background-color: rgb(255, 200, 71);
+    padding: 0;
+    width: 4rem;
+    color: white;
+    height: 2.5rem;
+}
+.btn-edit:hover {
+    background-color: rgb(212, 149, 3);
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+    
+}
+
+.btn-delete {
+    background-color: rgb(255, 65, 65);
+    color: white;
+    width: 5rem;
+    height: 2.5rem;
+}
+.btn-delete:hover {
+    background-color: rgb(207, 2, 2);
+    color: white;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+}
+
+tr:hover{
+    background-color: rgb(248, 248, 248);
+}
+
+.setting {
+    margin: 3rem;
+}
+
+.setting .atasan {
+    width: 90%;
+    margin: 2rem auto;
+    
+}
+
+
+
+/* navbar */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.05);
+    -moz-box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.05);
+    overflow: hidden;
+    background-color: rgb(177, 249, 225);
+}
+
+nav img {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 15%;
+    margin-left: 5rem;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+nav ul li {
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    padding: .3rem;
+}
+nav ul li:hover {
+    background-color: rgb(153, 255, 245);
+}
+
+/* navbar end */
